@@ -1,7 +1,11 @@
-valor = int (input("digite um valor que deseja saber a tabuada "))
 
-contadora = 1
+macas = int (input("Quantas maçãs você gostaria?: "))
 
-while contadora <= 10:
-    print (valor, "x", contadora, "=", valor * contadora)
-    contadora += 1
+valor1 = 1.30
+valor2 = 1.00
+
+if macas <= 12:
+    print ("As maçãs custaram: ", macas * valor1)
+
+else: 
+    print ("As maçãs custaram: ", macas * valor2)

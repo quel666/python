@@ -1,7 +1,6 @@
-valor = int (input("digite um valor "))
+contadora = 1
 
-if valor > 10:
-  print ("É MAIOR QUE 10!! ")
-
-else:
-  print ("NÃO É MAIOR QUE 10!! ")
+while contadora < 11: 
+    print ("Raquel")
+    contadora += 1 
+#while: enquanto

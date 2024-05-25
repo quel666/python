@@ -1,14 +1,10 @@
-numero1 = int (input("digite o primeiro numero "))
+valor = int (input("digite um valor "))
 
-numero2 = int (input("digite o segundo numero "))
+if valor > 0:
+    print ("O valor é positivo ")
 
-numero3 = int (input("digite o terceiro numero "))
+elif valor == 0:
+    print ("O valor é zero ")
 
-if numero1 > numero2 and numero1 > numero3:
-    print ("O número maior é ", numero1)
-
-elif numero2 > numero1 and numero2 > numero3:
-    print ("O numero maior é ", numero2)
-
-else: 
-    print ("O numero maior é ", numero3) 
+else:
+    print ("O valor é negativo ")
